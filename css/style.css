@@ -1,0 +1,269 @@
+/*header*/
+/*navbar from W3C example http://www.w3schools.com/css/css_navbar.asp*/
+.my-navbar {
+	list-style-type: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.my-navbar > li {
+	display: inline;
+}
+.navbar-link,
+.btn {
+	display: inline-block;
+	width: 24%;
+	height: 40px;
+	font-family: 'Lato',sans-serif;
+	vertical-align: middle;
+	background-color: #98bf21;
+}
+
+.navbar-link:link,
+.navbar-link:visited {
+	display: inline-block;
+	width: 24%;
+	font-weight: bold;
+	color: #fff;
+	background-color: #98bf21;
+	text-align: center;
+	padding: 4px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+.navbar-link:hover,
+.navbar-link:active,
+.btn:hover {
+	background-color:  #7a991a;
+}
+
+/*text styles*/
+h1,
+h2,
+h3 {
+	font: 300 'Lato',sans-serif;
+	color: #312e2c;
+}
+
+h1 {
+	font: 4em 'Rock Salt',cursive;
+}
+
+h2 {
+	font: bold 3em;
+}
+
+h3 {
+	font: bold 2em;
+}
+
+h4 {
+	font: bold 2em;
+}
+
+.tagline {
+	color: white;
+}
+
+.logo {
+	display: block;
+	margin: 10% auto;
+	width: 42%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.row-header,
+.row-footer {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color:  #2a8ed5;
+}
+
+.name,
+.title,
+.tagline {
+	text-align: right;
+}
+
+/*body*/
+hr {
+	border: 2px dashed black;
+}
+
+.image {
+	margin-left: auto;
+	margin-right:  auto;
+}
+
+/*other rows*/
+.row-main {
+	width: 100%;
+}
+
+.row-projects,
+.row-break {
+	padding-left: 7.5%;
+}
+
+nav,
+button {
+	min-height: 48px;
+	min-width: 48px;
+}
+
+.content-img {
+	max-width: 100%;
+	padding-left: 7.5%;
+}
+
+.row-break > * > h2 {
+	font-size: 3em;
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+
+.project > p  > a {
+	font: 300 1.5em 'Lato',sans-serif;
+	color: #747704;
+}
+
+.project > .proj-2-title {
+	padding-left: 40px;
+}
+
+.project > h3 {
+	margin: 3% 0 2% 0;
+	font-size: 2em;
+	padding-left: 90px;
+}
+
+.contact {
+	text-align: center;
+	color: white;
+	font: bold 1.5em 'Lato',sans-serif;
+	
+}
+
+.social {
+	align-content: center;
+	margin-top: 0px;
+}
+
+em {
+	color: #98bf21;
+	font-family: 'Rock Salt',cursive;
+}
+
+.modal-header {
+	color: black;
+	font-family: 'Rock Salt',cursive;
+	border: 0;
+}
+.modal-footer {
+	border: 0;
+}
+
+.grow {
+	transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+	transform: scale(1.1);
+	border: .5em solid black;
+	cursor:pointer;
+}
+
+.facebook {
+	margin-left: 24%;
+}
+
+.my-modal {
+	background-color: #98bf21;
+	opacity: 0.9;
+}
+
+.modal-content {
+	background-color: #2a8ed5;
+	color: white;
+	opacity: 1.0;
+}
+
+.modal-content > * {
+	margin: 0 auto 0 auto;
+	text-align: center;
+}
+
+.modal-body {
+	font-family: 1.5em 'Lato',sans-serif;
+}
+
+.modal-image {
+	margin: 0 auto 3% auto;
+}
+
+/*media queries*/
+@media screen and (max-width: 1080px) {
+	h1 {
+		font-size: 3em;
+	}
+	
+	h2 {
+		font-size: 2em;
+	}
+	
+	h3 {
+		font-size: 1em;
+	}
+	
+}
+
+@media screen and (max-width: 1000px) {
+	.logo {
+		display: none;
+	}
+	
+	.name,
+	.title,
+	.tagline {
+		text-align: center;
+	}
+	
+	.content-img {
+		display: none;
+	}
+	
+	.project > *,
+	.section-title,
+	.project > h3 {
+		text-align: center;
+		padding-left: 0px;
+	}
+	
+}
+
+@media screen and (min-width: 1000px) {
+	.separator {
+		display: none;
+	}
+	
+	.row-header {
+		width: 80%;
+		margin: 0 auto 0 auto;
+	}
+	
+	.navbar-link,
+	.navbar-link:link,
+	.navbar-link:visited {
+		width: 20%;
+	}
+	
+	.my-navbar {
+		margin-left:  8.5%;
+	}
+
+}
