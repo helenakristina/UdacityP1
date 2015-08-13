@@ -168,6 +168,7 @@ em {
 	border: 0;
 }
 
+/*grow feature used from here: https://css-tricks.com/snippets/css/scale-on-hover-with-webkit-transition/*/
 .grow {
 	transition: all .2s ease-in-out;
 }
