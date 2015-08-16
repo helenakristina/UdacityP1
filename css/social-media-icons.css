@@ -20,8 +20,8 @@
 }
 /* Thread */
 .badge:after {
-	-webkit-box-sizing: border-box; 
-	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	border: 1px dashed rgba(0,0,0,0.6);
 	border-radius: 50px;
@@ -52,7 +52,7 @@
 
 .badge.facebook{
 	background-color:#4466ae;
-	border-color: #2e4989;	
+	border-color: #2e4989;
 }.badge.facebook:hover {background-color: #517ad0;}
 
 .badge.linkedin{

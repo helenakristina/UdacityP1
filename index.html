@@ -1,205 +1,209 @@
 <!DOCTYPE HTML>
 <html>
-	<head>
-		
-		<meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=edge">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script src="js/jquery-2.1.4.min.js"></script>
-		<script src="js/bootstrap.min.js"></script>
-		<link rel="stylesheet" href="http://normalize-css.googlecode.com/svn/trunk/normalize.css"/>
-		<link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet">
-		<link href="http://fonts.googleapis.com/css?family=Pacifico%7CRock+Salt" rel="stylesheet">
-		<link rel="stylesheet" href="css/social-media-icons.css">
-		<link rel="stylesheet" href="css/bootstrap.css">
-		<link rel="stylesheet" href="css/bootstrap.min.css">
-		<link rel="stylesheet" href="css/style.css">
-		<title>Helena Lucia</title>
+<head>
 
-	</head>
-	<body>
-		
-		<!--navbar list menubar role for accessibility-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="http://normalize-css.googlecode.com/svn/trunk/normalize.css"/>
+	<link href="http://fonts.googleapis.com/css?family=Lato:400,300" rel="stylesheet">
+	<link href="http://fonts.googleapis.com/css?family=Pacifico%7CRock+Salt" rel="stylesheet">
+	<link rel="stylesheet" href="css/social-media-icons.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Helena Lucia</title>
+
+</head>
+<body>
+
+	<!--navbar list menubar role for accessibility-->
+	<nav class="nav">
 		<ul class="my-navbar" role="menubar">
-			<li><a href="#" class="navbar-link">Home</a></li>
-			<li><a href="#" class="navbar-link">Page 1</a></li>
-			<li><a href="#" class="navbar-link">Page 2</a></li>
-			<li><a href="#" class="navbar-link">Page 3</a></li>
+			<li class="nav-li"><a href="#" class="navbar-link">Home</a></li>
+			<li class="nav-li"><a href="#" class="navbar-link">Page 1</a></li>
+			<li class="nav-li"><a href="#" class="navbar-link">Page 2</a></li>
+			<li class="nav-li"><a href="#" class="navbar-link">Page 3</a></li>
 		</ul>
-		
-		<!--header with content-->
-		<div class="row row-header">
-			<div class="col-md-5">
-				<img class="logo img-responsive" src="images/logo.jpg" alt="helena lucia logo">
-			</div>
-			<div class = "col-md-6 intro">
-				<h1 class="name">Helena Lucia</h1>
-				<h2 class="title text-uppercase">Software Developer</h2>
-				<h3 class="tagline text-uppercase">Responsive. Accessible. Data-driven.</h3>
+	</nav>
+
+	<!--header with content-->
+	<header class="row row-header">
+		<div class="col-md-5">
+			<img class="logo img-responsive" src="images/logo.jpg" alt="helena lucia logo">
+		</div>
+		<div class = "col-md-6 intro">
+			<h1 class="name">Helena Lucia</h1>
+			<h2 class="title text-uppercase">Software Developer</h2>
+			<h3 class="tagline text-uppercase">Responsive. Accessible. Data-driven.</h3>
+		</div>
+	</header>
+
+
+	<!--content of page in bootstrap container for responiveness-->
+	<div class="container">
+
+		<hr>
+
+		<div class="row row-main">
+			<div class="col-md-12">
+				<img class="content-img img-responsive" src="images/town.jpg" alt="Suyalita Mexico">
 			</div>
 		</div>
-		
-		
-		<!--content of page in bootstrap container for responiveness-->
-		<div class="container">
-			
-			<hr>
-			
-			<div class="row row-main">
-				<div class="col-md-12">
-					<img class="content-img img-responsive" src="images/town.jpg" alt="Suyalita Mexico">
-				</div>
+
+		<div class="row row-break">
+			<div class="col-md-12">
+				<h2 class="section-title">Featured Work</h2>
 			</div>
-			
-			<div class="row row-break">
-				<div class="col-md-12">
-					<h2 class="section-title">Featured Work</h2>
-				</div>
-			</div>
-			
-			<div class="row row-projects">
-				
-				<div class="col-md-4 project">
-					<img class="image img-responsive grow" src="images/proj1.jpg" data-toggle="modal" data-target="#project1Modal" alt="Volkswagon Bug">
-					<h3 class="proj-1-title">APPIFY</h3>
-					<p>
-						<a href="pages/appify.html">http://github.com/helenakristina/</a>
-					</p>
-				</div>
-				
-				<hr class="separator">
-				
-				<div class="col-md-4 project">
-					<img class="image img-responsive grow" src="images/proj2.jpg" data-toggle="modal" data-target="#project2Modal" alt="Volkswagon Bug">
-					<h3 class="proj-2-title">SUNFLOWER</h3>
-					<p>
-						<a href="http://github.com/helenakristina/">http://github.com/helenakristina/</a>
-					</p>
-				</div>
-				
-				<hr class="separator">
-				
-				<div class="col-md-4 project">
-					<img class="image img-responsive grow" src="images/proj3.jpg" data-toggle="modal" data-target="#project3Modal" alt="Volkswagon Bug">
-					<h3 class="proj-3-title">BOKEH</h3>
-					<p>
-						<a href="http://github.com/helenakristina/">http://github.com/helenakristina/</a>
-					</p>
-				</div>
-				
-			</div>
-			
 		</div>
-	<!-- Modals from responsive web design examples in Bootstrap-->
-	<div class="modal fade my-modal" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
-		
-		<div class="modal-dialog">
-			
-			<div class="modal-content">
-				
-				<div class="modal-header">
-					<h4 class="modal-title" id="project1ModalLabel">Favorite App Page</h4>
-				</div>
-				
-				<hr>
-				
-				<div class="modal-body">
-					<img class="img-responsive modal-image" src="images/proj1.jpg" alt="Volkswagon Bug">
-					This was my first project in this class. I learned a lot about HTML and CSS.
-				</div>
-				
-				<hr>
-				
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				</div>
-				
+
+		<div class="row row-projects">
+
+			<div class="col-md-4 project">
+				<img class="image img-responsive grow" src="images/proj1.jpg" data-toggle="modal" data-target="#project1Modal" alt="Volkswagon Bug">
+				<h3 class="proj-1-title project-title">APPIFY</h3>
+				<p>
+					<a class="project-link" href="pages/appify.html">http://github.com/helenakristina/</a>
+				</p>
 			</div>
-			
+
+			<hr class="separator">
+
+			<div class="col-md-4 project">
+				<img class="image img-responsive grow" src="images/proj2.jpg" data-toggle="modal" data-target="#project2Modal" alt="Volkswagon Bug">
+				<h3 class="proj-2-title project-title">SUNFLOWER</h3>
+				<p>
+					<a class="project-link" href="http://github.com/helenakristina/">http://github.com/helenakristina/</a>
+				</p>
+			</div>
+
+			<hr class="separator">
+
+			<div class="col-md-4 project">
+				<img class="image img-responsive grow" src="images/proj3.jpg" data-toggle="modal" data-target="#project3Modal" alt="Volkswagon Bug">
+				<h3 class="proj-3-title project-title">BOKEH</h3>
+				<p>
+					<a class="project-link" href="http://github.com/helenakristina/">http://github.com/helenakristina/</a>
+				</p>
+			</div>
+
 		</div>
-		
+
 	</div>
-	
-	<div class="modal fade my-modal" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
-		
-		<div class="modal-dialog">
-			
-			<div class="modal-content">
-				
-				<div class="modal-header">
-					<h4 class="modal-title" id="project2ModalLabel">Favorite App Page</h4>
-				</div>
-				
-				<hr>
-				
-				<div class="modal-body">
-					<img class="img-responsive modal-image" src="images/proj2.jpg" alt="Volkswagon Bug">
-					This was my first project in this class. I learned a lot about HTML and CSS.
-				</div>
-				
-				<hr>
-				
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				</div>
-				
-			</div>
-			
-		</div>
-		
-	</div>
-	
-	<div class="modal fade my-modal" id="project3Modal" tabindex="-1" role="dialog" aria-labelledby="project3ModalLabel" aria-hidden="true">
-		
-		<div class="modal-dialog">
-			
-			<div class="modal-content">
-				
-				<div class="modal-header">
-					<h4 class="modal-title" id="project3ModalLabel">Favorite App Page</h4>
-				</div>
-				
-				<hr>
-				
-				<div class="modal-body">
-					<img class="img-responsive modal-image" src="images/proj3.jpg" alt="Volkswagon Bug">
-					This was my first project in this class. I learned a lot about HTML and CSS.
-				</div>
-				
-				<hr>
-				
-				<div class="modal-footer">
-					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-				</div>
-				
-			</div>
-			
-		</div>
-		
-	</div>
-	
-	<div class="row row-footer">
-		
+
+
+	<footer class="row row-footer">
+
 		<div class="col-md-12">
 			<section class="contact">
 				<h3><em>Contact:</em></h3><br>
 				Helena Lucia <br>
 				hklucia@gmail.com <br>
-				360.907.0702 
+				360.907.0702
 			</section>
-			
+
 			<hr>
-			
+
 			<!-- social media share code  from cssdeck.com/labs/hand-stitched-social-media-icons-->
 			<div class="social">
 				<a href="https://www.facebook.com/helenakristina" class="badge facebook"></a>
 				<a href="https://www.linkedin.com/profile/view?id=23424687" class="badge linkedin"></a>
 			</div>
-			
+
 		</div>
-		
+
+	</footer>
+
+	<!-- Modals from responsive web design examples in Bootstrap-->
+	<div class="modal fade my-modal" id="project1Modal" tabindex="-1" role="dialog" aria-labelledby="project1ModalLabel" aria-hidden="true">
+
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<h4 class="modal-title" id="project1ModalLabel">Favorite App Page</h4>
+				</div>
+
+				<hr>
+
+				<div class="modal-body">
+					<img class="img-responsive modal-image" src="images/proj1.jpg" alt="Volkswagon Bug">
+					This was my first project in this class. I learned a lot about HTML and CSS.
+				</div>
+
+				<hr>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+
+		</div>
+
 	</div>
-	
-	</body>
+
+	<div class="modal fade my-modal" id="project2Modal" tabindex="-1" role="dialog" aria-labelledby="project2ModalLabel" aria-hidden="true">
+
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<h4 class="modal-title" id="project2ModalLabel">Favorite App Page</h4>
+				</div>
+
+				<hr>
+
+				<div class="modal-body">
+					<img class="img-responsive modal-image" src="images/proj2.jpg" alt="Volkswagon Bug">
+					This was my first project in this class. I learned a lot about HTML and CSS.
+				</div>
+
+				<hr>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<div class="modal fade my-modal" id="project3Modal" tabindex="-1" role="dialog" aria-labelledby="project3ModalLabel" aria-hidden="true">
+
+		<div class="modal-dialog">
+
+			<div class="modal-content">
+
+				<div class="modal-header">
+					<h4 class="modal-title" id="project3ModalLabel">Favorite App Page</h4>
+				</div>
+
+				<hr>
+
+				<div class="modal-body">
+					<img class="img-responsive modal-image" src="images/proj3.jpg" alt="Volkswagon Bug">
+					This was my first project in this class. I learned a lot about HTML and CSS.
+				</div>
+
+				<hr>
+
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+
+			</div>
+
+		</div>
+
+	</div>
+
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+
+</body>
 
 </html>
